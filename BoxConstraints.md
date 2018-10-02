@@ -39,5 +39,5 @@ Em caso de restrições limitadas, eles tentar ser o maior possível.
 Em caso de restrições ilimitadas, eles tentar se encaixar com os filho de acordo com as suas respectivas direções. Nesse caso você __NÂO__ poderá ter um filho do tipo Flex diferente de 0, que é o padrão. Na biblioteca de Widget do Flutter isso significa que você __NÃO__ poderá usar um `Expanded` dentro de uma flex box que está dentro de outra Flex box ou dentro de um scrollable. Se você fizer isso, será lançado uma exceção nessa parte do seu código.
 
 
-##### Referência
+### Referência
 [Dealing with box constraints in Flutter](https://flutter.io/layout/)
