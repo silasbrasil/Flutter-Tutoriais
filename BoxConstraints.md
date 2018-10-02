@@ -32,11 +32,11 @@ Os casos mais comuns onde a RenderBox encontra-se sem restrições são as Flex 
 No caso particular, o `ListView` tenta expandir para preencher os espaços disponíveis na direção transversal (cross-direction) da sua orientação. Por exemplo, se a orientação do scroll é vertical o `ListView` tentar ser o mais largo possível, se a orientação do scroll é horizontal então o `ListView` mais alto possível. Assim, se você encadear um `ListView` de scroll vertical dentro de um `ListView` de scroll horizontal, o interno tentará ser o maior possível, que é infinitamente largo, já que o externo terá o scroll na direção de expansão do filho.
 
 ### Flex Box
-As Flex Boxes (`Row` e `Column`) se comportam baseando se as restrições são limitadas ou ilimitadas em suas respectivas direções.
+As Flex Boxes (`Row` e `Column`) se comportam baseando-se nas restrições sendo elas limitadas ou ilimitadas.
 
-Em caso de restrições limitadas, eles tentar ser o maior possível.
+Para restrições limitadas (Bounded Constraints), eles tentar ser o maior possível.
 
-Em caso de restrições ilimitadas, eles tentar se encaixar com os filho de acordo com as suas respectivas direções. Nesse caso você __NÂO__ poderá ter um filho do tipo Flex diferente de 0, que é o padrão. Na biblioteca de Widget do Flutter isso significa que você __NÃO__ poderá usar um `Expanded` dentro de uma flex box que está dentro de outra Flex box ou dentro de um scrollable. Se você fizer isso, será lançado uma exceção nessa parte do seu código.
+Em caso de restrições ilimitadas (Unbounded Constraints), eles tentar se encaixar com os filho de acordo com as suas respectivas direções. Nesse caso você __NÂO__ poderá ter um filho do tipo Flex diferente de 0, que é o padrão. Na biblioteca de Widget do Flutter isso significa que você __NÃO__ poderá usar um `Expanded` dentro de uma flex box que está dentro de outra flex box ou dentro de um scrollable. Se você fizer isso, será lançado uma exceção nessa parte do seu código.
 
 
 ### Referência
