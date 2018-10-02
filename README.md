@@ -1,4 +1,4 @@
 # Flutter Tutoriais
-Esse projeto tem como objetivo produzir e traduzir tutoriais básicos e avançados sobre Flutter.
+Esse projeto tem como objetivo produzir e traduzir tutoriais básicos e avançados sobre Flutter. Segue a lista dos tutoriais finalizados até o momento.
 
-##### [Lidando com Box Constraints em Flutter](https://github.com/silasbrasil/Flutter-Tutoriais/blob/master/BoxConstraints.md)
+* [Lidando com Box Constraints em Flutter](https://github.com/silasbrasil/Flutter-Tutoriais/blob/master/BoxConstraints.md)
