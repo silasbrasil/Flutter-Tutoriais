@@ -5,4 +5,5 @@ Esse projeto tem como objetivo produzir e traduzir tutoriais básicos e avançad
 
 ##### Em breve
 * [Criando Layouts](https://flutter.io/tutorials/layout/)
-* [Requisitando APIs e Serializando JSON](https://flutter.io/json/)
+* [Requisitando APIs com Http e Serializando JSON](https://flutter.io/json/)
+* [Escrevendo Códigos Nativos (Android e iOS) para Flutter](https://flutter.io/platform-channels/)
