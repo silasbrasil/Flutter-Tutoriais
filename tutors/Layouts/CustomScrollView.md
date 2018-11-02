@@ -75,7 +75,7 @@ Agora vamos utilizar um componente um pouco mais complexo. Na verdade, não é t
             return Container(
               alignment: Alignment.center,
               color: Colors.teal[100 * (index % 9)],
-              child: Text('Curso $index'),
+              child: Text('Célula $index'),
             );
           },
           childCount: 100,
@@ -94,3 +94,7 @@ A propriedade __gridDelegate__ utiliza um `SliverGridDelegateWithMaxCrossAxisExt
 Perceba que nesse componente o conteúdo de cada célula não gerencia o tamanho da célula, essa responsabilidade é inteiramamente do _grid_. O conteúdo que está na célula deverá se comportar baseado no tamanho da célula.
 
 Já na propriedade __delegate__ foi passado o `SliverChildBuilderDelegate` que vai gerar 100 células para o _grid_, como passado no _childCount_ e cada célula terá um `Container` com cor e texto variante dependendo do _index_ do `Container`.
+
+Resultado final do App:
+
+![]()
