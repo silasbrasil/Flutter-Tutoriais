@@ -1,4 +1,4 @@
-# CustomScrollView, AppBar Expansísel e Slivers
+# CustomScrollView - Grid, Scroll e AppBar Expasível
 
 Nesse tutorial vamos aprender a fazer uma AppBar Expasível e um ScrollView com components de diferentes tamanhos no seu conteúdo. 
 
