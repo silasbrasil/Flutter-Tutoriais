@@ -96,4 +96,5 @@ Perceba que nesse componente o conteúdo de cada célula não gerencia o tamanho
 Já na propriedade __delegate__ foi passado o `SliverChildBuilderDelegate` que vai gerar 100 células para o _grid_, como passado no _childCount_ e cada célula terá um `Container` com cor e texto variante dependendo do _index_ do `Container`.
 
 Resultado final do App:
+
 <img src="CustomScrollView.jpeg" alt="drawing" width="412" height="732"/>
