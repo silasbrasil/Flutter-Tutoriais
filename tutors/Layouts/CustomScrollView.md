@@ -32,7 +32,7 @@ class MyCustomScroll extends StatelessWidget {
 }
 ```
 
-Com essa estrutura básica do nosso App vamos começar tabalhar nos detalhes. Nosso primeiro passo é aprender usar o `SliverAppBar`. Dentro do arrays de __slivers__ do `CustomScrollView` vamos adicionar o `SliverAppBar`, da seguinte forma:
+Com essa estrutura básica do nosso App vamos começar tabalhar nos detalhes. Nosso primeiro passo é aprender usar o `SliverAppBar`. Dentro do array de __slivers__ no `CustomScrollView` vamos adicionar o `SliverAppBar`, da seguinte forma:
 
 ```dart
     ...
