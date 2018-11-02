@@ -97,4 +97,4 @@ Já na propriedade __delegate__ foi passado o `SliverChildBuilderDelegate` que v
 
 Resultado final do App:
 
-![](https://github.com/silasbrasil/Flutter-Tutoriais/blob/master/tutors/Layouts/CustomScrollView.jpeg)
+![](./CustomScrollView.jpeg =520x840)
